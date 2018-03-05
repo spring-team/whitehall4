@@ -11,7 +11,7 @@ class Whitehall4Controller {
 
     @RequestMapping(method = GET, path = "/")
     public String root() {
-        return "App running: Served from " + getClass().getName();
+        return "App running: 1962 was a great year. Served from " + getClass().getName();
     }
 
     @RequestMapping(method = GET, path = "hello/{name}")
